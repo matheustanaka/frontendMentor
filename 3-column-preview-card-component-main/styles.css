@@ -24,10 +24,104 @@ h1 {
     font-size: 24px;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#btn1 {
+    color: var(--bright-orange);
+}
+
+#btn2 {
+    color: var(--dark-cyan);
+
+}
+
+#btn3 {
+    color: var(--very-dark-cyan);
+
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+}
+
+#card1 {
+    background-color: var(--bright-orange);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+#card2 {
+    background-color: var(--dark-cyan);
+    color: #fff;
+
+}
+
+#card3 {
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: transparent;
+ 
+}
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+  @media (min-width: 992px) {
+      .container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          max-width: 900px;
+          margin: auto;
+      }
+
+      #card1 {
+          border-radius: 10px 0 0 10px;
+      }
+
+      #card3 {
+        border-radius: 0 10px 10px 0;
+
+      }
+
+      .card {
+          padding: 45px;
+
+      }
+
+      .card p {
+        margin-bottom: 80px;
+    }
+ }
