@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution 🚀
+# Frontend Mentor - 3-column preview card component 🚀
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
